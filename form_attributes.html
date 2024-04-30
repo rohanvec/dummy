@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Document</title>
+</head>
+<body>
+
+    <form >
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" value="John">
+        <!-- value attribute will be used to add default value to input field -->
+        <br>
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" placeholder="Enter your last name">
+        <!-- placeholder attribute is used to provide some hints/info about the data to be entered in this field -->
+
+        <br><br>
+        <input type="text" value="val-1" placeholder="xyz">
+   <!-- value has got more preference over placeholder, if value is empty,placeholder content will be displayed -->
+<br> <br>
+   <input type="text" size="10">
+   <!-- size attribute gives you the input space for certain characters. It doesn't restrict the input size -->
+        <br><br>
+        <input type="text" maxlength="10"  size="10">
+        <!-- maxlength attribute controls the input size -->
+
+        <!-- range input -->
+        <br><br>
+        <input type="range" >
+        <input type="number" min="10" max="30">
+        <br><br>
+        Input for max & min length
+        <input type="text" minlength="5" maxlength="10">
+
+    </form>
+    
+</body>
+</html>
